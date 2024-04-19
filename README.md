@@ -22,7 +22,7 @@ cd preprocess
 ./launchers/launch_create_sdf_shapenet.sh
 ```
 * text2shape
-    - Run the following command for setting up the text2shape dataset.
+     Run the following command for setting up the text2shape dataset.
 ```
 mkdir -p data/ShapeNet/text2shape
 wget http://text2shape.stanford.edu/dataset/captions.tablechair.csv -P data/ShapeNet/text2shape
@@ -32,9 +32,12 @@ cd preprocess
 
 ## Training on Text2Shape for text-guided shape generation
 ```
-# text2shape
 ./launchers/train_sdfusion_txt2shape.sh
-
+```
+## Download pre-trained models on Text2Shape
+```
+We will release it on the cloud drive.
+```
 # <a name="citation"></a> Citation
 
 If you find this code helpful, please consider citing:
