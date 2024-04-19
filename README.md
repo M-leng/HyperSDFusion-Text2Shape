@@ -20,7 +20,7 @@ unzip ShapeNetCore.v1.zip
 ./launchers/unzip_snet_zipfiles.sh # unzip the zip files
 cd preprocess
 ./launchers/launch_create_sdf_shapenet.sh
-
+```
 * text2shape
     - Run the following command for setting up the text2shape dataset.
 ```
